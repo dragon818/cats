@@ -1,6 +1,7 @@
 const cacheName = 'v8';
 const cachedAssets = ['index.html',
 'Contact_Us.html',
+'About_Us.html',
 'staff.html',
 'reset.css',
 'styles/about.css',
