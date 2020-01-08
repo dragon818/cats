@@ -1,5 +1,5 @@
 const cacheName = 'v7';
-const cachedAssets = ['index.html','Contact_Us.html','staff.html','reset.css','styles/about.css','styles/contact.css','styles/home.css','styles/staff.css','main.js'];
+const cachedAssets = ['index.html','Contact_Us.html','staff.html','reset.css','styles/about.css','styles/contact.css','styles/home.css','styles/staff.css','main.js','http://www.iconarchive.com/download/i103367/paomedia/small-n-flat/cat.ico'];
 
 self.addEventListener('install', e => {
   console.log('install');
