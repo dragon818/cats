@@ -1,4 +1,4 @@
-const cacheName = 'v7';
+const cacheName = 'v8';
 const cachedAssets = ['index.html',
 'Contact_Us.html',
 'staff.html',
@@ -7,12 +7,7 @@ const cachedAssets = ['index.html',
 'styles/contact.css',
 'styles/home.css',
 'styles/staff.css',
-'main.js',
-'http://www.iconarchive.com/download/i103367/paomedia/small-n-flat/cat.ico',
-'http://placekitten.com/225/175',
-'http://placekitten.com/225/176',
-'http://placekitten.com/224/175',
-'http://placekitten.com/175/175'];
+'main.js'];
 
 self.addEventListener('install', e => {
   console.log('install');
