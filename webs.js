@@ -1,4 +1,4 @@
-const cacheName = 'v8';
+const cacheName = 'v2';
 const cachedAssets = ['index.html',
 'Contact_Us.html',
 'About_Us.html',
