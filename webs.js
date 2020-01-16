@@ -39,5 +39,16 @@ self.addEventListener('activate', e => {
 
 self.addEventListener('fetch', e => {
   console.log('fetch');
-  e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
+  e.respondWith(
+    caches.match(e.request)
+    .then(
+      response => {
+        console.log(response);
+        if (response) {
+          return response;
+        };
+        return fetch(e.request)
+      })
+      .catch(err => console.log(err))
+  );
 });
